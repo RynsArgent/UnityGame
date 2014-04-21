@@ -46,9 +46,14 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\MyCreations\Scripts\AISimpleChase.cs" />
-     <Compile Include="Assets\MyCreations\Scripts\ChangeColour.cs" />
-     <Compile Include="Assets\MyCreations\Scripts\Unit.cs" />
+     <Compile Include="Assets\MyCreations\Scripts\Components\AISimpleChase.cs" />
+     <Compile Include="Assets\MyCreations\Scripts\Components\ChangeColour.cs" />
+     <Compile Include="Assets\MyCreations\Scripts\Components\GridGen.cs" />
+     <Compile Include="Assets\MyCreations\Scripts\Components\Unit.cs" />
+     <Compile Include="Assets\MyCreations\Scripts\GridMap\GridMap.cs" />
+     <Compile Include="Assets\MyCreations\Scripts\GridMap\Search\GridSearch.cs" />
+     <Compile Include="Assets\MyCreations\Scripts\GridMap\Search\GridSearchAStar.cs" />
+     <Compile Include="Assets\MyCreations\Scripts\GridMap\Search\PriorityQueue.cs" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
   </ItemGroup>
   <ItemGroup>
