@@ -44,7 +44,7 @@ class GridState : IComparable<GridState>
 	#endregion
 	
 	#region GettersSetters
-	/////////////////////
+	//////////////////////
 	/// Getters & Setters
 	///
 	public GridState Previous
